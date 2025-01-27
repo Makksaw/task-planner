@@ -1,0 +1,17 @@
+{
+    "name": "task-planner",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server",
+        "start": "node server"
+    },
+    "keywords": [],
+    "author": "Maks",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2",
+        "nodemon": "^3.1.9"
+    }
+}
