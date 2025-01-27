@@ -39,7 +39,7 @@ async function loadTasks() {
         }
 
         const taskDiv = document.createElement('div');
-        taskDiv.classList.add('task', `task-${task.id}`);
+        taskDiv.classList.add('task');
 
         const timeLeft = new Date(task.dueDate) - new Date();
         if (timeLeft < 0) {
